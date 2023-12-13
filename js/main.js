@@ -205,6 +205,7 @@ function formatTime(time) {
   }
 
   function showResults() {
+      placeHolder.setAttribute("readonly");
     backdrop.classList.remove('is-hidden');
     if( answers < 10){
       resultsContainer.textContent = `${answers}/${questionArray.length}\n
@@ -221,6 +222,7 @@ function formatTime(time) {
       }, 1000);
   }
   function restartGame() {
+      placeHolder.removeAttribute("readonly");
     $('.kreis').show(400);
     targetTime = 210000;
     count = 3;
