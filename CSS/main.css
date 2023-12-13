@@ -251,9 +251,11 @@
     
     #refresh{
         margin: 1px 7rem 0 0;
+        top: 10px;
     }
     #stop{
         margin: 1px 7rem 0;
+        top: 10px;
     }
     .kreis-wrapper{
         top: 60px;
