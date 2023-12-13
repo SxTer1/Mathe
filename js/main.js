@@ -180,7 +180,7 @@ function startCountdown(){
         if (timeLeft <= 0) {
           clearInterval(timerInterval);
           timer.textContent = '00:00:00';
-          questionBox.textContent = "TIME IS OVER!;
+          questionBox.textContent = "TIME IS OVER!";
           showResults();
           return;
         }
