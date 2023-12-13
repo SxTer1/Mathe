@@ -262,6 +262,11 @@
     #text-timer{
         display: none;
     }
-    
+    .timer{
+        margin-right: 190px;
+    }
+    .wrapper{
+        min-width: 480px;
+    }
         
   }
